@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <title>SW 1</title>
+
+</head>
+     <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+      background: #AFEEEE; /* Pale Turquoise */
+    }
+
+    .profile-card {
+      width: 80%;
+      max-width: 700px;
+      padding: 35px;
+      background: white;
+
+      /* Border */
+      border: 6px solid #81D8D0; /* Tiffany Blue */
+      border-radius: 20px;
+
+      /* Shadow */
+      box-shadow: 0 10px 25px rgba(0, 128, 128, 0.25);
+
+      text-align: center;
+    }
+
+    .profile-card h1 {
+      color: #008F8C;
+      margin-bottom: 5px;
+    }
+
+    .profile-card h2 {
+      color: #4F9D9D;
+      font-size: 18px;
+      margin-top: 0;
+    }
+
+    .profile-card p {
+      color: #444;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+
+    .details {
+      background: #E0FFFF;
+      padding: 20px;
+      border: 3px solid #81D8D0;
+      border-radius: 15px;
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    .details p {
+      margin: 8px 0;
+      color: #176B6B;
+    }
+
+    .label {
+      font-weight: bold;
+      color: #008F8C;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="profile-card">
+    <h1>Student Profile</h1>
+    <h2>Welcome to my profile!</h2>
+    <div id="result" style="background-color: turquoise; color: rgb(163, 255, 250); font-size: 30px;"></div>
+    <py-script src="main.py"></py-script>
+
+</body>
+</html>
